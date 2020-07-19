@@ -1,128 +1,142 @@
-.heading{
-    text-align: center;
-}
-.menu1{
-    position: relative;
-    border: 2px solid black;
-    width: 29%;
-    box-sizing: border-box;
-    background-color: lightgrey;
-    padding: 15px;
-    margin-right: 40px;
-    float:left;
-    
-}
-.subheading1{
-    width: 33.3%;
-    box-sizing: border-box;
-    float: right;
-    clear: right;
-    text-align: center;
-    position: relative;
-    top: -16px;
-    right: -16px;
-    border: 2px solid black;
-    font-weight: bold;
-    background-color: pink;
-}
-.content1{
-    clear: both;
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
 }
 
-.menu2{
-    position: relative;
-
-    border: 2px solid black;
-    width: 29%;
-    box-sizing: border-box;
-    background-color: lightgrey;
-    padding: 15px;
-    margin-right: 40px;
-    float:left;
-    
-}
-.subheading2{
-    width: 33.3%;
-    float: right;
-    clear: right;
-    box-sizing: border-box;
-    text-align: center;
-    position: relative;
-    top: -16px;
-    right: -16px;
-    border: 2px solid black;
-    font-weight: bolder;
-    color: white;
-    background-color:red;
-}
-.content2{
-    clear: both;
+h1 {
+	font-family: Brushstroke, fantasy;
+	color: #000000;
 }
 
+body {
+	/* background-image: url("background.jpg"); */
+	background-color: #FEF5CA;
 
-
-.menu3{
-    position: relative;
-    border: 2px solid black;
-    width: 29%;
-    box-sizing: border-box;
-    background-color: lightgrey;
-    padding: 15px;
-    margin-right: 40px;
-    float:left;
-    
-}
-.subheading3{
-    width: 33.3%;
-    float: right;
-    clear: right;
-    box-sizing: border-box;
-    text-align: center;
-    position: relative;
-    top: -16px;
-    right: -16px;
-    border: 2px solid black;
-    font-weight: bold;
-    background-color:yellow;
-}
-.content3{
-    clear: both;
 }
 
-
-@media  (min-width:768px) and (max-width:991px){
-    .menu1{
-        width: 45%;
-        float: left;
-        margin-bottom: 50px;
-    }
-    .menu2{
-        width: 45%;
-        float: left;
-        margin-bottom: 50px;
-        margin-right: 0px;
-    }
-    .menu3{
-        clear: both;
-        float: left;
-        width: 94.5%;
-    }
+p {
+	padding: 10px;
+	margin: 0;
 }
-@media(max-width:767px){
-    .menu1{
-        width: 94%;
-        float: left;
-        margin-bottom: 50px;
-    }
-    .menu2{
-        width: 94%;
-        float: left;
-        margin-bottom: 50px;
-    }
-    .menu3{
-        clear: both;
-        float: left;
-        width: 94%;
 
-    }
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
 }
+
+section {
+	border:	1px solid black;
+	background-color: #00FF99;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FFFF00;
+}
+
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FF1439;
+}
+
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #6495ED;
+	color: white;
+	padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
+}
+
+#header-nav {
+  border: 0;
+  background-color: #FC5F06;
+  color: #FFFFFF;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
+
