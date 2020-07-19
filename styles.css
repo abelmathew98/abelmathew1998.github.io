@@ -10,7 +10,7 @@ h1 {
 }
 
 body {
-	/* background-image: url("background.jpg"); */
+	background-image: url("background.jpg");
 	background-color: #FEF5CA;
 
 }
@@ -139,4 +139,3 @@ hr {
   color: white;
   font-size: 1.2em;
 }
-
